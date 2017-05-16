@@ -81,6 +81,6 @@ public class MyHttpServerTest {
         
         TestHttpExchange goodGif = new TestHttpExchange("/h1.gif", header);
         handler.handle(goodGif);
-        assertEquals("Good response code.",200, goodGif.getResponseCode());
+        assertEquals("Bad response code.",200, goodGif.getResponseCode());
     }
 }
