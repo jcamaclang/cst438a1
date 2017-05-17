@@ -144,6 +144,9 @@ public class GameTest {
        
     }
     
+    /**
+     * Test of isValid method, of class Game.
+     */
     @org.junit.Test
     public void testIsValid() {
         System.out.println("isValid");
@@ -162,6 +165,9 @@ public class GameTest {
         assertEquals(expResult, result);
     }
     
+    /**
+     * provide a wrong letter for guess to check
+     */
     private char getWrongLetter(String word)
     {
         char[] wrongLetter = {'x', 'y', 'z'};
