@@ -70,6 +70,9 @@ public class MyHttpServerTest {
     }
     }
     
+    /**
+     * Test if gif downloaded or not and valid message is sent.
+     */
     @Test
     public void testGifDownload() throws Exception 
     {
